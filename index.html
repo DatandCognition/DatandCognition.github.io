@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            padding: 120px;
+            width: 1126px;
+            height: 748px;
+            background-image:url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1406%2F24%2Fc2%2F35610690_35610690_1403583097828.jpg&refer=http%3A%2F%2Fimg.pconline.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665540681&t=484873be9db772f11820ee797f9b1951");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        div {
+            width: 200px;
+            height: 400px;
+            background-color: #fff;
+            border-left: 200px solid #000;
+            border-radius: 50%;
+            color: red;
+            position: fixed;
+            transition: all 9s;
+        }
+
+        div::after,
+        div::before {
+            content: "";
+            display: block;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: -100px;
+        }
+
+        div::after {
+            background: black;
+            border: 75px solid #fff;
+        }
+
+        div::before {
+            background: #fff;
+            border: 75px solid #000;
+        }
+
+        div:hover {
+            transform: rotate(2700deg);
+        }
+
+        a {
+            position: fixed;
+            left:735px;
+            top:270px;
+            font-weight:bold;
+            color: deepskyblue;
+            text-decoration: none;
+            font-size: 30px;
+            border-style: outset;
+            border-color:deepskyblue;
+            border-radius: 25px;
+            border-width: 8px;
+            background-color: white;
+            padding: 5px 12px 7px 12px;
+        }
+
+        a:hover {
+            color:rgb(20, 125, 160);
+            border-color: rgb(20, 125, 160);
+            background-color: rgb(209, 243, 255);
+        }
+
+        a:active {
+            color: white;
+            border-color: white;
+            background-color: black;
+            border-style: solid;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div></div>
+    <a target="_blank" href="https://nbviewer.org/github/DatandCognition/PW/blob/main/pw.ipynb">个人作品</a>
+
+</body>
+
+</html>
